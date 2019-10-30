@@ -1,0 +1,25 @@
+{
+  "name": "rwa",
+  "version": "1.0.0",
+  "description": "Outil de planification et d'ingénierie des réseaux à FO SDH/WDM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "js-graph-algorithms": "^1.0.18",
+    "mongoose": "^5.7.4",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
